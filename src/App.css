@@ -1,0 +1,55 @@
+html {
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  font-style: normal;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  --textRegular: 400;
+  --textMedium: 500;
+  --textBold: 700;
+
+  --tx1: #FFFFFF;
+  --bg1: #000000;
+  --bg2: #EE0000;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+hr,
+a {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+button,
+li,
+a {
+  cursor: pointer;
+  border: 0;
+  text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}

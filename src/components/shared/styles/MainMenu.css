@@ -1,0 +1,29 @@
+.mainMenu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  height: 3.5em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: transparent;
+}
+
+.mainMenu--scrolled {
+  background-color: #804000a9;
+}
+
+.mainMenu__ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mainMenu__ul__li--a {
+  font-weight: var(--textMedium);
+  color: var(--textColor);
+  transition: color 0.3s ease;
+  font-size: 0.95rem;
+}

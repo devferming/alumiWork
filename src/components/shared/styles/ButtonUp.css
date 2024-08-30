@@ -1,0 +1,24 @@
+.buttonUp {
+  background-color: #804000a9;
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+  position: fixed; 
+  bottom: 2%;
+  right: 2%; 
+  z-index: 9;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.buttonUp__i {
+  color: var(--textColor);
+  font-size: 2em;
+}
+
+.buttonUp--scrolled {
+  opacity: 1;
+  visibility: visible; 
+}
