@@ -9,7 +9,7 @@ export const photoGallery = {
       '90 cm de ancho x 2 mts de alto.'
     ],
     [
-      'Puerta más Cuerpo Fijo 1.5*2 mts.',
+      'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
       '/gallery/doors/doors_002.webp',
       'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
       '$1.500.000',
@@ -17,7 +17,7 @@ export const photoGallery = {
       'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto'
     ],
     [
-      'Puerta más Cuerpo Fijo Proyectante 1.5*2 mts.',
+      'Me interesa la Puerta más Cuerpo Fijo Proyectante 1.5*2 mts.',
       '/gallery/doors/doors_003.webp',
       'Puerta + Cuerpo Fijo Proyectante 1.5*2 mts.',
       '$1.600.000',
@@ -25,7 +25,7 @@ export const photoGallery = {
       'Puerta: 90 cm de ancho x 2 mts de alto, Cuerpo Fijo: 60 cm de ancho x 2 mts de alto'
     ],
     [
-      'Puerta más Doble Cuerpo Fijo Proyectante 2*2 mts.',
+      'Me interesa la Puerta más Doble Cuerpo Fijo Proyectante 2*2 mts.',
       '/gallery/doors/doors_006.webp',
       'Puerta + Doble Cuerpo Fijo Proyectante 2*2 mts.',
       '$1.900.000',
@@ -33,7 +33,7 @@ export const photoGallery = {
       'Puerta de 90 cm de ancho x 2 mts de alto, 2 cuerpos fijos proyectantes de 50 cm de ancho x 2 mts de alto'
     ],
     [
-      'Puerta Doble 2*2 mts.',
+      'Me interesa la Puerta Doble 2*2 mts.',
       '/gallery/doors/doors_004.webp',
       'Puerta Doble 2*2 mts.',
       '$1.900.000',
@@ -41,7 +41,7 @@ export const photoGallery = {
       '2 mts de ancho x 2 mts de alto'
     ],
     [
-      'Puerta Fachada de 2.5*2 mts.',
+      'Me interesa la Puerta Fachada de 2.5*2 mts.',
       '/gallery/doors/doors_005.webp',
       'Puerta Fachada de 2.5*2 mts.',
       '$2.500.000',
@@ -51,7 +51,7 @@ export const photoGallery = {
   ],
   bathrooms: [
     [
-      'Puerta de baño en PVC',
+      'Me interesa la Puerta de baño en PVC',
       '/gallery/bathrooms/bathrooms_001.webp',
       'Puerta de baño en PVC',
       '$350.000',
@@ -59,7 +59,7 @@ export const photoGallery = {
       'Hasta máximo 1.20 cm de ancho x 180 cm de alto.'
     ],
     [
-      'Puerta de baño en Acrílico',
+      'Me interesa la Puerta de baño en Acrílico',
       '/gallery/bathrooms/bathrooms_002.webp',
       'Puerta de baño en Acrílico',
       '$350.000',
@@ -68,7 +68,7 @@ export const photoGallery = {
     ],
     [
 
-      'Titulo',
+      'Me interesa la División de baño en Vidrio Templado 10mm',
       '/gallery/bathrooms/bathrooms_003.webp',
       'División de baño en Vidrio Templado 10mm',
       '$750.000',
@@ -76,7 +76,7 @@ export const photoGallery = {
       'Hasta máximo 1.20 cm de ancho x 180 cm de alto.'
     ],
     [
-      'Titulo',
+      'Me interesa la División de baño en Vidrio Templado 10mm',
       '/gallery/bathrooms/bathrooms_004.webp',
       'División de baño en Vidrio Templado 10mm',
       '$750.000',
@@ -86,7 +86,7 @@ export const photoGallery = {
   ],
   enclosures: [
     [
-      'Encerramiento tipo lenteja',
+      'Me interesa el Encerramiento tipo lenteja',
       '/gallery/enclosures/enclosures_001.webp',
       'Encerramiento tipo lenteja',
       '$250.000/m2',
@@ -94,7 +94,7 @@ export const photoGallery = {
       'Desde 1 m2 en adelante'
     ],
     [
-      'Encerramiento en Aluminio',
+      'Me interesa Encerramiento en Aluminio',
       '/gallery/enclosures/enclosures_002.webp',
       'Encerramiento en Aluminio',
       '$250.000/m2',
@@ -103,7 +103,7 @@ export const photoGallery = {
     ],
     [
 
-      'Titulo',
+      'Me interesa la Fachada en acero con Encerramiento en Aluminio',
       '/gallery/enclosures/enclosures_003.webp',
       'Fachada en acero con Encerramiento en Aluminio',
       '$250.000/m2',
@@ -113,7 +113,7 @@ export const photoGallery = {
   ],
   windows: [
     [
-      'Puerta ventana Lisa en perfil 744',
+      'Me interesa la Puerta ventana Lisa en perfil 744',
       '/gallery/windows/windows_001.webp',
       'Puerta ventana Lisa en perfil 744',
       '$250.000/m2',
@@ -121,7 +121,7 @@ export const photoGallery = {
       'Desde 1 m2 en adelante'
     ],
     [
-      'Ventana Lisa en perfil 50-20',
+      'Me interesa la Ventana Lisa en perfil 50-20',
       '/gallery/windows/windows_002.webp',
       'Ventanas Lisas en perfil 50-20',
       '$180.000/m2',
@@ -129,7 +129,7 @@ export const photoGallery = {
       'Desde 1 m2 en adelante'
     ],
     [
-      'Ventana Reticulada en perfil 50-20',
+      'Me interesa la Ventana Reticulada en perfil 50-20',
       '/gallery/windows/windows_003.webp',
       'Ventanas Reticuladas en perfil 50-20',
       '$230.000/m2',
@@ -138,7 +138,7 @@ export const photoGallery = {
 
     ],
     [
-      'Ventana Proyectante',
+      'Me interesa la Ventana Proyectante',
       '/gallery/windows/windows_004.webp',
       'Ventanas Proyectantes en Aluminio Pesado',
       '$550.000/m2',
@@ -148,7 +148,7 @@ export const photoGallery = {
   ],
   railings: [
     [
-      'Escalera en vidrio templado con barandas en acero inoxidable',
+      'Me interesa la Escalera en vidrio templado con barandas en acero inoxidable',
       '/gallery/railings/railings_001.webp',
       'Escalera en vidrio templado con barandas en acero inoxidable',
       '$250.000/m2',
@@ -156,7 +156,7 @@ export const photoGallery = {
       'Desde 1 m2 en adelante'
     ],
     [
-      'Barandas en acero inoxidable',
+      'Me interesa la Baranda en acero inoxidable',
       '/gallery/railings/railings_002.webp',
       'Barandas en acero inoxidable para escaleras',
       '$250.000/m2',
@@ -165,7 +165,7 @@ export const photoGallery = {
     ],
     [
 
-      'Barandas en acero inoxidable',
+      'Me interesa la Baranda en acero inoxidable',
       '/gallery/railings/railings_003.webp',
       'Barandas en acero inoxidable para escaleras',
       '$250.000/m2',

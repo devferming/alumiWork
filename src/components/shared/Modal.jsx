@@ -8,7 +8,7 @@ const Modal = ( { photoGallery, crrPhoto }) => {
       <div className='Modal'>
         <div className='Modal__container__div'>
           <img className='Modal__container__div__img' src={crrPhoto[1]} alt="puerta_img" />
-          <a className='Modal__container__btn' href="#">Cotizar</a>
+          <a className='Modal__container__btn' href={`https://wa.me/573207442620?text=${crrPhoto[0]}`}>Cotizar</a>
         </div>
         <div className='Modal__container__desc'>
           <p className='Modal__container__tittle'>{crrPhoto[2]}</p>
