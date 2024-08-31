@@ -1,13 +1,34 @@
 .gallery {
-  height: 100vh;
+  height: auto;
   width: 100%;
-  background-color: black;
   position: relative;
-
   display: grid;
+  gap: 0.4em;
+}
+
+.doors {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 0.2em;
+}
+
+.windows {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.bathrooms {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.enclosures {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.railings {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
 }
 
 .gallery__article {
@@ -25,8 +46,8 @@
   position: absolute;
   top: 5%;
   left: 5%;
-  background-color: var(--bg2);
-  color: var(--tx1);
+  background-color: #00ce4f;
+  color: black;
   font-weight: var(--textRegular);
   font-size: 0.9rem;
 }
@@ -80,8 +101,29 @@
 }
 
 @media (max-width:950px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr);
+
+  .doors {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .windows {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .bathrooms {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .enclosures {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .railings {
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
 

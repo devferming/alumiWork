@@ -3,8 +3,6 @@ import './styles/Modal.css'
 
 const Modal = ( { photoGallery, crrPhoto }) => {
 
-  console.log(crrPhoto)
-
   return (
     <div className='Modal__container'>
       <div className='Modal'>

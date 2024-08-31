@@ -1,29 +1,31 @@
 .mainMenu {
+  position: static;
   display: flex;
   align-items: center;
   width: 100%;
-  position: fixed;
-  z-index: 10;
-  height: 3.5em;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  background-color: transparent;
-}
-
-.mainMenu--scrolled {
-  background-color: #804000a9;
+  z-index: 101;
+  background-color: var(--bg2);
+  padding: 0.8em;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .mainMenu__ul {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 2em;
-  -webkit-tap-highlight-color: transparent;
+  gap: 0.9em;
 }
 
 .mainMenu__ul__li--a {
   font-weight: var(--textMedium);
-  color: var(--textColor);
+  color: var(--tx1);
   transition: color 0.3s ease;
   font-size: 0.95rem;
+  padding: 0.4em;
+}
+
+.active__li {
+  background-color: #3a0000;
+  color: var(--bg2);
 }
