@@ -1,0 +1,86 @@
+.Modal__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+
+  /* background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  z-index: 101;
+  top: 0%; */
+}
+
+.Modal {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.Modal__container__div {
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+.Modal__container__div__img {
+  width: 100%;
+}
+
+.Modal__container__desc {
+  background: #ee00007a;
+  width: 50%;
+  padding: 2em;
+  overflow-y: auto;
+}
+
+.Modal__container__tittle {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: var(--textMedium);
+  text-align: center;
+  margin-bottom: 1.1em;
+}
+
+.Modal__container__label {
+  background: #3a0000;
+  color: #EE0000;
+  padding: 0.3em;
+  font-weight: var(--textMedium);
+  margin-bottom: 0.5em;
+}
+
+.Modal__container__label__p {
+  margin-bottom: 1em;
+  color: white;
+}
+
+.Modal__container__btn {
+  position: absolute;
+  width: 4.2em;
+  background: var(--bg1);
+  color: var(--tx1);
+  padding: 0.5em;
+  font-size: 0.9rem;
+  right: 5%;
+  bottom: 5%;
+}
+
+
+@media (max-width:950px) {
+  .Modal {
+    flex-direction: column;
+  }
+
+  .Modal__container__div,
+  .Modal__container__desc {
+    width: 100%;
+  }
+ 
+  .Modal__container__div__img {
+    width: 100%;
+  }
+}

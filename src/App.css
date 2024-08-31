@@ -16,6 +16,8 @@ html {
 
 body {
   margin: 0;
+  position: relative;
+  background-color: #000000;
 }
 
 h1,
@@ -52,4 +54,36 @@ a {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+}
+
+.modal__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  transform: scale(0);
+}
+
+.modal__open {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.Modal__container__close {
+  position: absolute;
+  width: 2em;
+  background: var(--bg1);
+  color: var(--tx1);
+  padding: 0.3em;
+  font-size: 1.2rem;
+  font-weight: var(--textBold);
+  right: 4%;
+  top: 4%;
 }
