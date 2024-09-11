@@ -1,31 +1,59 @@
 .mainMenu {
-  position: static;
+  position: fixed;
   display: flex;
   align-items: center;
+  flex-direction: column;
   width: 100%;
   z-index: 101;
-  background-color: var(--bg2);
-  padding: 0.8em;
+  padding: 0;
   -webkit-tap-highlight-color: transparent;
+  background: rgb(53, 53, 53);
 }
 
-.mainMenu__ul {
+.mainMenu__ul,
+.mainMenu__subMenu__ul {
+  padding: 1em 0.5em;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   gap: 0.9em;
+  height: 3.5em;
 }
 
-.mainMenu__ul__li--a {
+.mainMenu__ul__li--a,
+.mainMenu__subMenu__ul__li--a {
   font-weight: var(--textMedium);
   color: var(--tx1);
   transition: color 0.3s ease;
   font-size: 0.95rem;
   padding: 0.4em;
+  border-radius: 15px;
+  padding: 0.5em 0.5em;
 }
 
-.active__li {
-  background-color: #3a0000;
+.mainMenu__subMenu__ul {
+  background: white;
+}
+
+.mainMenu__subMenu__ul__li--a {
+  color: rgb(53, 53, 53);
+}
+
+.active_menu {
+  background-color: #ffffff;
   color: var(--bg2);
+}
+
+.active_subMenu {
+  background-color: var(--bg2);
+  color: white;
+}
+
+@media (max-width:950px) {
+  .mainMenu__ul,
+  .mainMenu__subMenu__ul {
+    height: 6em;
+  }
 }

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import './styles/Gallery.css'
 
-const Gallery = ({ photoGallery, setCrrPhoto, setOpenModal, activeLink }) => {
+const Gallery = ({ photoGallery, setCrrPhoto, setOpenModal, activeCategory, subMenu }) => {
 
-  const [crrGallery, setCrrGallery] = useState(photoGallery.doors)
+  const [crrGallery, setCrrGallery] = useState(photoGallery[activeCategory])
 
   const openModal = (crrElm) => {
     setCrrPhoto(crrElm)
@@ -11,20 +11,20 @@ const Gallery = ({ photoGallery, setCrrPhoto, setOpenModal, activeLink }) => {
   };
 
   useEffect(() => {
-    if (activeLink && photoGallery[activeLink]) {
-      setCrrGallery(photoGallery[activeLink])
+    if (activeCategory && photoGallery[activeCategory]) {
+      setCrrGallery(photoGallery[activeCategory])
     } else {
       setCrrGallery([])
     }
-  }, [activeLink, photoGallery])
+  }, [activeCategory, photoGallery, crrGallery])
 
 
   return (
-    <section className={`gallery ${activeLink}`} id='gallery'>
+    <section className={`gallery ${activeCategory}`} id='gallery'>
 
       {
-        crrGallery.map((crrPhoto, crrIdx, crrElm) => (
-          <article className='gallery__article' key={crrIdx} >
+        crrGallery[subMenu]?.map((crrPhoto, crrIdx, crrElm) => (
+          <article className='gallery__article' key={`gallery-${crrIdx}`} >
             <p className='gallery__price'>{crrPhoto[3]}</p>
             <img className='gallery__article__bg' src={crrPhoto[1]} alt="puerta_img" />
             <p className='gallery__article__desc'>{crrPhoto[2]}</p>

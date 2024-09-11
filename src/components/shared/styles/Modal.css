@@ -26,23 +26,23 @@
 }
 
 .Modal__container__desc {
-  background: #ee00007a;
+  background: white;
   width: 50%;
   padding: 2em;
   overflow-y: auto;
 }
 
 .Modal__container__tittle {
-  color: white;
+  color: var(--bg2);
   font-size: 1.2rem;
-  font-weight: var(--textMedium);
+  font-weight: var(--textBold);
   text-align: center;
   margin-bottom: 1.1em;
 }
 
 .Modal__container__label {
-  background: #3a0000;
-  color: #EE0000;
+  background: var(--bg2);
+  color: white;
   padding: 0.3em;
   font-weight: var(--textMedium);
   margin-bottom: 0.5em;
@@ -50,18 +50,21 @@
 
 .Modal__container__label__p {
   margin-bottom: 1em;
-  color: white;
+  color: black;
 }
 
 .Modal__container__btn {
   position: absolute;
-  width: 4.2em;
-  background: var(--bg1);
-  color: var(--tx1);
-  padding: 0.5em;
-  font-size: 0.9rem;
   right: 5%;
   bottom: 5%;
+
+  border-radius: 15px;
+  width: 4.2em;
+  background: white;
+  font-weight: var(--textBold);
+  color: var(--bg2);
+  padding: 0.5em;
+  font-size: 0.9rem;
 }
 
 

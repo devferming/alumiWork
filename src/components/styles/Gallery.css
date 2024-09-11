@@ -2,44 +2,21 @@
   height: auto;
   width: 100%;
   position: relative;
-  display: grid;
-  gap: 0.4em;
-}
-
-.doors {
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.windows {
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-}
-
-.bathrooms {
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-}
-
-.enclosures {
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-}
-
-.railings {
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(1, 1fr);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5%;
+  padding-top: 7em;
 }
 
 .gallery__article {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   overflow: hidden;
   position: relative;
+  width: 24.6%;
 }
+
 
 .gallery__price {
   padding: 0.5em;
@@ -48,7 +25,8 @@
   left: 5%;
   background-color: #00ce4f;
   color: black;
-  font-weight: var(--textRegular);
+  font-weight: var(--textBold);
+  border-radius: 15px;
   font-size: 0.9rem;
 }
 
@@ -67,14 +45,14 @@
   align-items: center;
 }
 
-.gallery__article__btns{
+.gallery__article__btns {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
   z-index: 100;
   position: absolute;
-  right: 3%;
-  bottom: 20%;
+  right: 5%;
+  bottom: 15%;
 
 }
 
@@ -84,53 +62,31 @@
   object-fit: cover;
 }
 
-.gallery__btn1 {
-  width: 4.2em;
-  background: var(--bg1);
-  color: var(--tx1);
-  padding: 0.5em;
-  font-size: 0.9rem;
-}
-
+.gallery__btn1,
 .gallery__btn2 {
+  border-radius: 15px;
   width: 4.2em;
-  background: var(--bg1);
-  color: var(--tx1);
+  background: white;
+  font-weight: var(--textBold);
+  color: var(--bg2);
   padding: 0.5em;
   font-size: 0.9rem;
 }
 
 @media (max-width:950px) {
 
-  .doors {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-  }
-
-  .windows {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
-
-  .bathrooms {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-  }
-
-  .enclosures {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-  }
-
-  .railings {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+  .gallery {
+    padding-top: 12em;
   }
 
   .gallery__price {
     padding: 0.3em;
-    font-weight: var(--textRegular);
-    font-size: 0.85rem;
+    font-size: 1rem;
+  }
+
+  .gallery__article {
+    width: 100%;
+    margin-bottom: 0.5rem;
   }
 
   .gallery__article__desc {
@@ -139,10 +95,10 @@
   }
 
   .gallery__btn1 {
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
 
   .gallery__btn2 {
-    font-size: 0.85rem;
+    font-size: 1rem;
   }
 }

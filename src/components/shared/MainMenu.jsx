@@ -2,89 +2,112 @@ import React from 'react'
 import './styles/MainMenu.css'
 
 
-const MainMenu = ({ activeLink, setActiveLink }) => {
+const MainMenu = ({ activeCategory, setActiveCategory, subMenu, setSubMenu }) => {
 
-  const handleLinkClick = (href) => {
-    setActiveLink(href)
+  const subMenuArr = {
+    doors: [
+      ['simple'],
+      ['standard'],
+      ['fixedBody'],
+      ['double'],
+      ['facade'],
+    ],
+    windows: [
+      ['smooth'],
+      ['reticulated'],
+      ['projectors'],
+      ['heavy'],
+      ['windowDoor'],
+    ],
+    bathrooms: [
+      ['pvc'],
+      ['acrylic'],
+      ['temperedGlass'],
+      ['windows'],
+    ],
+    enclosures: [
+      ['aluminum'],
+      ['temperedGlass'],
+      ['stainlessSteel'],
+    ],
+    railings: [
+      ['aluminum'],
+      ['stainlessSteel'],
+      ['temperedGlass'],
+    ]
+  }
+
+  const translation = {
+    doors: 'Puertas',
+    bathrooms: 'Baños',
+    enclosures: 'Encerramientos',
+    windows: 'Ventanas',
+    railings: 'Barandas',
+    simple: 'Simple',
+    standard: 'Estandar',
+    fixedBody: 'Cuerpo Fijo',
+    double: 'Doble',
+    facade: 'Fachada',
+    smooth: 'Lisa',
+    reticulated: 'Reticulada',
+    projectors: 'Proyectante',
+    windowDoor: 'Puerta Ventana',
+    pvc: 'PVC',
+    acrylic: 'Acrílico',
+    aluminum: 'Aluminio',
+    temperedGlass: 'Vidrio Templado',
+    stainlessSteel: 'Acero Inoxidable',
+    heavy: 'Pesadas'
+  }
+
+  const handleCategoryClick = (category) => {
+    setActiveCategory(category)
+    setSubMenu(subMenuArr[category][0][0])
+  }
+
+  const handleSubCategoryClick = (subCategory) => {
+    setSubMenu(subCategory)
   }
 
   return (
     <nav className='mainMenu' id='mainMenu'>
       <ul className='mainMenu__ul'>
-
-        <li className='mainMenu__ul__li'>
-          <a
-            className={`mainMenu__ul__li--a ${activeLink === 'doors' ? 'active__li' : ''}`}
-            onClick={() => handleLinkClick('doors')}
-            href="#doors"
-          >
-            Puertas
-          </a>
-        </li>
-
-        <li className='mainMenu__ul__li'>
-          <a
-            className={`mainMenu__ul__li--a ${activeLink === 'windows' ? 'active__li' : ''}`}
-            onClick={() => handleLinkClick('windows')}
-            href="#windows"
-          >
-            Ventanas
-          </a>
-        </li>
-
-        <li className='mainMenu__ul__li'>
-          <a
-            className={`mainMenu__ul__li--a ${activeLink === 'bathrooms' ? 'active__li' : ''}`}
-            onClick={() => handleLinkClick('bathrooms')}
-            href="#bathrooms"
-          >
-            Baños
-          </a>
-        </li>
-
-        <li className='mainMenu__ul__li'>
-          <a
-            className={`mainMenu__ul__li--a ${activeLink === 'enclosures' ? 'active__li' : ''}`}
-            onClick={() => handleLinkClick('enclosures')}
-            href="#enclosures"
-          >
-            Encerramientos
-          </a>
-        </li>
-
-        <li className='mainMenu__ul__li'>
-          <a
-            className={`mainMenu__ul__li--a ${activeLink === 'railings' ? 'active__li' : ''}`}
-            onClick={() => handleLinkClick('railings')}
-            href="#railings"
-          >
-            Barandas
-          </a>
-        </li>
-
-        {/*           <li className='mainMenu__ul__li'>
-            <a
-            className={`mainMenu__ul__li--a ${activeLink === 'handles' ? 'active__li' : ''}`}
-            onClick={() => handleLinkClick('handles')}
-            href="#handles"
-            >
-              Manijones
-            </a>
-          </li>
-
-          <li className='mainMenu__ul__li'>
-            <a
-            className={`mainMenu__ul__li--a ${activeLink === 'glasses' ? 'active__li' : ''}`}
-            onClick={() => handleLinkClick('glasses')}
-            href="#glasses"
-            >
-              Vidrios
-            </a>
-          </li> */}
-
+        {
+          Object.entries(subMenuArr).map(([category], crrIdx) => (
+            <li className='mainMenu__ul__li' id={`menu-${crrIdx}`} key={`menu-${crrIdx}`}>
+              <a
+                className={`mainMenu__ul__li--a ${activeCategory === category ? 'active_menu' : ''}`}
+                onClick={() => handleCategoryClick(category)}
+                href={`#${category}`}
+              >
+                {translation[category]}
+              </a>
+            </li>
+          ))
+        }
       </ul>
+
+      <ul className='mainMenu__subMenu__ul'>
+        {
+          subMenuArr[activeCategory].map(([subCategory], crrIdx) => (
+
+            <li className='mainMenu__subMenu__ul__li' id={`subMenu-${crrIdx}`} key={`subMenu-${crrIdx}`}>
+              <a
+                className={`mainMenu__subMenu__ul__li--a ${subCategory === subMenu ? 'active_subMenu' : ''}`}
+                onClick={() => handleSubCategoryClick(subCategory)}
+                href="#doors"
+              >
+                {translation[subCategory]}
+              </a>
+            </li>
+
+          ))
+        }
+      </ul>
+
     </nav>
   )
+
 }
 
 export default MainMenu

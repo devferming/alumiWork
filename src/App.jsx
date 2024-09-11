@@ -10,7 +10,8 @@ function App() {
 
   const [crrPhoto, setCrrPhoto] = useState([])
   const [openModal, setOpenModal] = useState(false)
-  const [activeLink, setActiveLink] = useState('doors')
+  const [activeCategory, setActiveCategory] = useState('doors')
+  const [subMenu, setSubMenu] = useState('standard')
 
 
   const closeModal = () => {
@@ -20,14 +21,17 @@ function App() {
   return (
     <>
       <MainMenu
-        activeLink={activeLink}
-        setActiveLink={setActiveLink}
+        activeCategory={activeCategory}
+        setActiveCategory={setActiveCategory}
+        subMenu={subMenu}
+        setSubMenu={setSubMenu}
       />
       <Gallery
         photoGallery={photoGallery}
         setCrrPhoto={setCrrPhoto}
         setOpenModal={setOpenModal}
-        activeLink={activeLink}
+        activeCategory={activeCategory}
+        subMenu={subMenu}
       />
       <div className={`modal__div ${openModal && 'modal__open'}`}>
         <button className='Modal__container__close' onClick={() => closeModal()}>x</button>

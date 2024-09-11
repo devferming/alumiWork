@@ -4,7 +4,7 @@ import './styles/ButtonUp.css'
 const buttonUp = ( { scrolled } ) => {
 
   const handleScrollUp = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' }); // Desplaza suavemente hasta la parte superior
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   return (

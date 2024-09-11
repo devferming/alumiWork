@@ -79,11 +79,11 @@ a {
 .Modal__container__close {
   position: absolute;
   width: 2em;
-  background: var(--bg1);
+  background: transparent;
   color: var(--tx1);
   padding: 0.3em;
-  font-size: 1.2rem;
-  font-weight: var(--textBold);
+  font-size: 1.5rem;
+  font-weight: var(--textMedium);
   right: 4%;
   top: 4%;
 }
