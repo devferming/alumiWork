@@ -2,223 +2,223 @@ export const photoGallery = {
   doors: {
     simple: [
       [
-        'Me interesa la Puerta simple.',
+        'Me interesa la Puerta sencilla.',
         '/gallery/doors/simple/1.webp',
-        'Puerta en aluminio simple',
+        'Puerta sencilla en aluminio premium',
         '$600.000',
-        'Cerradura y Manija sencilla, perfilería en aluminio simple.',
+        'Cerradura y Manija sencilla, perfilería en aluminio premium.',
         '90 cm de ancho x 2 mts de alto',
         'PS001'
       ],
       [
-        'Me interesa la Puerta simple.',
+        'Me interesa la Puerta sencilla.',
         '/gallery/doors/simple/2.webp',
-        'Puerta en aluminio simple',
+        'Puerta sencilla en aluminio premium',
         '$600.000',
-        'Cerradura y Manija sencilla, perfilería en aluminio simple.',
+        'Cerradura y Manija sencilla, perfilería en aluminio premium.',
         '90 cm de ancho x 2 mts de alto',
         'PS002'
       ],
       [
-        'Me interesa la Puerta simple.',
+        'Me interesa la Puerta sencilla + Puerta ventana.',
         '/gallery/doors/simple/3.webp',
-        'Puerta en aluminio simple',
-        '$600.000',
-        'Cerradura y Manija sencilla, perfilería en aluminio simple.',
-        '90 cm de ancho x 2 mts de alto',
+        'Puerta sencilla + Puerta ventanda',
+        '$1.200.000',
+        'Puerta sencilla en aluminio premium con Cerradura y Manija sencilla. Puerta ventana en perfil 744',
+        'Puerta 90 cm de ancho x 2 mts de alto, Puerta ventana: 1.2 metros de ancho 2 mts de alto',
         'PS003'
       ],
-      [
-        'Me interesa la Puerta simple.',
-        '/gallery/doors/simple/4.webp',
-        'Puerta en aluminio simple',
-        '$600.000',
-        'Cerradura y Manija sencilla, perfilería en aluminio simple.',
-        '90 cm de ancho x 2 mts de alto',
-        'PS004'
-      ]
     ],
     standard: [
       [
-        'Me interesa la Puerta estandar 90cm*2mts.',
+        'Me interesa la Puerta pesada 90cm*2mts.',
         '/gallery/doors/standard/1.webp',
-        'Puerta estandar 90cm*2mts.',
+        'Puerta pesada 90cm*2mts.',
         '$950.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         '90 cm de ancho x 2 mts de alto.',
         'PE001'
       ],
       [
-        'Me interesa la Puerta estandar 90cm*2mts.',
+        'Me interesa la Puerta pesada 90cm*2mts.',
         '/gallery/doors/standard/2.webp',
-        'Puerta estandar 90cm*2mts.',
+        'Puerta pesada 90cm*2mts.',
         '$950.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         '90 cm de ancho x 2 mts de alto.',
         'PE002'
       ],
       [
-        'Me interesa la Puerta estandar 90cm*2mts.',
+        'Me interesa la Puerta pesada 90cm*2mts.',
         '/gallery/doors/standard/3.webp',
-        'Puerta estandar 90cm*2mts.',
+        'Puerta pesada 90cm*2mts.',
         '$950.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         '90 cm de ancho x 2 mts de alto.',
         'PE003'
       ],
       [
-        'Me interesa la Puerta estandar 90cm*2mts.',
+        'Me interesa la Puerta pesada 90cm*2mts.',
         '/gallery/doors/standard/4.webp',
-        'Puerta estandar 90cm*2mts.',
+        'Puerta pesada 90cm*2mts.',
         '$950.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         '90 cm de ancho x 2 mts de alto.',
         'PE004'
       ],
+      [
+        'Me interesa la Puerta pesada 90cm*2mts.',
+        '/gallery/doors/simple/4.webp',
+        'Puerta pesada 90cm*2mts.',
+        '$950.000',
+        'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
+        '90 cm de ancho x 2 mts de alto',
+        'PE005'
+      ]
     ],
     fixedBody: [
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/1.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
+        'Puerta: 1 metro de ancho x 2 mts de alto, cuerpo Fijo: 50 cm de ancho x 2 mts de alto cada uno.',
         'CF001'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/2.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
+        'Puerta: 1 metro de ancho x 2 mts de alto, cuerpo Fijo: 50 cm de ancho x 2 mts de alto cada uno.',
         'CF002'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/3.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
+        'Puerta: 1 metro de ancho x 2 mts de alto, cuerpo Fijo: 50 cm de ancho x 2 mts de alto cada uno.',
         'CF003'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/4.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
+        'Puerta: 1 metro de ancho x 2 mts de alto, cuerpo Fijo: 50 cm de ancho x 2 mts de alto cada uno.',
         'CF004'
       ],
       [
         'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
         '/gallery/doors/fixedBody/5.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
+        'Puerta pesada + Cuerpo Fijo 1.5*2 mts.',
         '$1.500.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
         'CF005'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/6.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
+        'Puerta: 1 metro de ancho x 2 mts de alto, cuerpo Fijo: 50 cm de ancho x 2 mts de alto cada uno.',
         'CF006'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/7.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
+        'Puerta: 1 metro de ancho x 2 mts de alto, cuerpo Fijo: 50 cm de ancho x 2 mts de alto cada uno.',
         'CF007'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/8.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
+        'Puerta: 1 metro de ancho x 2 mts de alto, cuerpo Fijo: 50 cm de ancho x 2 mts de alto cada uno.',
         'CF008'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/9.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
+        'Puerta: 1 metro de ancho x 2 mts de alto, cuerpo Fijo: 50 cm de ancho x 2 mts de alto cada uno.',
         'CF009'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/10.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
+        'Puerta: 1 metro de ancho x 2 mts de alto, cuerpo Fijo: 50 cm de ancho x 2 mts de alto cada uno.',
         'CF010'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/11.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
+        'Puerta: 1 metro de ancho x 2 mts de alto, cuerpo Fijo: 50 cm de ancho x 2 mts de alto cada uno.',
         'CF012'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta pesada más Cuerpo Fijo 1.5*2 mts.',
         '/gallery/doors/fixedBody/12.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
+        'Puerta pesada + Cuerpo Fijo 1.5*2 mts.',
         '$1.500.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
         'CF012'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta + Cuerpo Fijo proyectante 1.5*2 mts.',
         '/gallery/doors/fixedBody/13.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta + Cuerpo Fijo proyectante 1.5*2 mts.',
+        '$1.600.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
         'CF013'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/14.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
+        'Puerta: 1 metro de ancho x 2 mts de alto, cuerpo Fijo: 50 cm de ancho x 2 mts de alto cada uno.',
         'CF014'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/15.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
         'CF015'
       ],
       [
-        'Me interesa la Puerta más Cuerpo Fijo 1.5*2 mts.',
+        'Me interesa la Puerta más Doble Cuerpo Fijo 2*2 mts.',
         '/gallery/doors/fixedBody/16.webp',
-        'Puerta blanca + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        'Puerta pesada + doble Cuerpo Fijo 2*2 mts.',
+        '$1.900.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
+        'Puerta: 1 metro de ancho x 2 mts de alto, cuerpo Fijo: 50 cm de ancho x 2 mts de alto cada uno.',
         'CF016'
       ],
     ],
@@ -249,7 +249,7 @@ export const photoGallery = {
         'Puerta Fachada de 2.5*2 mts.',
         '$2.500.000',
         'Doble cerradura de seguridad, Manijas de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 30 cm de ancho x 2 mts de alto',
+        '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 35 cm de ancho x 2 mts de alto',
         'PF001'
       ],
       [
@@ -258,7 +258,7 @@ export const photoGallery = {
         'Puerta Fachada de 2.5*2 mts.',
         '$2.500.000',
         'Doble cerradura de seguridad, Manijas de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 30 cm de ancho x 2 mts de alto',
+        '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 35 cm de ancho x 2 mts de alto',
         'PF002'
       ],
       [
@@ -267,7 +267,7 @@ export const photoGallery = {
         'Puerta Fachada de 2.5*2 mts.',
         '$2.500.000',
         'Doble cerradura de seguridad, Manijas de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 30 cm de ancho x 2 mts de alto',
+        '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 35 cm de ancho x 2 mts de alto',
         'PF003'
       ],
       [
@@ -276,7 +276,7 @@ export const photoGallery = {
         'Puerta Fachada de 2.5*2 mts.',
         '$2.500.000',
         'Doble cerradura de seguridad, Manijas de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 30 cm de ancho x 2 mts de alto',
+        '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 35 cm de ancho x 2 mts de alto',
         'PF004'
       ],
       [
@@ -285,7 +285,7 @@ export const photoGallery = {
         'Puerta Fachada de 2.5*2 mts.',
         '$2.500.000',
         'Doble cerradura de seguridad, Manijas de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
-        '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 30 cm de ancho x 2 mts de alto',
+        '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 35 cm de ancho x 2 mts de alto',
         'PF005'
       ],
 
@@ -453,11 +453,11 @@ export const photoGallery = {
     ],
     windows: [
       [
-        'Me interesa la ventana para baño',
+        'Me interesa el Tragaluz para baños en perfilería 50-20',
         '/gallery/bathrooms/windows/1.webp',
-        'Puerta de baño en Acrílico',
-        '$350.000',
-        'División de baño en Aluminio y Acrílico, con puertas corredizas y accesorios aluminio',
+        'Tragaluz para baños en perfilería 50-20',
+        'Desde $50.000',
+        'Tragaluz para baños en perfilería 50-20, con Vidrios reflectivos (tipo espejo).',
         'Hasta máximo 1.20 cm de ancho x 180 cm de alto.',
         'BV001'
       ],
@@ -635,11 +635,11 @@ export const photoGallery = {
         'PW003'
       ],
       [
-        'Me interesa la Puerta ventana Lisa en perfil 744',
+        'Me interesa la Puerta ventana reticulada en perfil 744',
         '/gallery/windows/windowDoor/4.webp',
-        'Puerta ventana Lisa en perfil 744',
-        '$250.000/m2',
-        'Puerta ventana Lisa en perfil 744, con vidrio reflectivo (tipo espejo).',
+        'Puerta ventana reticulada en perfil 744',
+        '$270.000/m2',
+        'Puerta ventana reticulada en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW004'
       ],
@@ -653,11 +653,11 @@ export const photoGallery = {
         'PW005'
       ],
       [
-        'Me interesa la Puerta ventana Lisa en perfil 744',
+        'Me interesa la Puerta ventana reticulada en perfil 744',
         '/gallery/windows/windowDoor/6.webp',
-        'Puerta ventana Lisa en perfil 744',
-        '$250.000/m2',
-        'Puerta ventana Lisa en perfil 744, con vidrio reflectivo (tipo espejo).',
+        'Puerta ventana reticulada en perfil 744',
+        '$270.000/m2',
+        'Puerta ventana reticulada en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW006'
       ],
@@ -680,38 +680,38 @@ export const photoGallery = {
         'PW008'
       ],
       [
-        'Me interesa la Puerta ventana Lisa en perfil 744',
+        'Me interesa la Puerta ventana reticulada en perfil 744',
         '/gallery/windows/windowDoor/9.webp',
-        'Puerta ventana Lisa en perfil 744',
-        '$250.000/m2',
-        'Puerta ventana Lisa en perfil 744, con vidrio reflectivo (tipo espejo).',
+        'Puerta ventana reticulada en perfil 744',
+        '$270.000/m2',
+        'Puerta ventana reticulada en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW009'
       ],
       [
         'Me interesa la Puerta ventana en perfil 80-25',
         '/gallery/windows/windowDoor/10.webp',
-        'Puerta ventana Lisa en perfil 744',
+        'Puerta ventana en perfil 80-25',
         '$550.000/m2',
-        'Puerta ventana EN Aluminio Pesado premium en perfil 80-25, con vidrio reflectivo (tipo espejo).',
+        'Puerta ventana en perfil 80-25, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW010'
       ],
       [
-        'Me interesa la Puerta ventana Lisa en perfil 744',
+        'Me interesa la Puerta ventana reticulada en perfil 744',
         '/gallery/windows/windowDoor/11.webp',
-        'Puerta ventana Lisa en perfil 744',
-        '$250.000/m2',
-        'Puerta ventana Lisa en perfil 744, con vidrio reflectivo (tipo espejo).',
+        'Puerta ventana reticulada en perfil 744',
+        '$270.000/m2',
+        'Puerta ventana reticulada en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW011'
       ],
       [
         'Me interesa la Puerta ventana en perfil 80-25',
         '/gallery/windows/windowDoor/12.webp',
-        'Puerta ventana Lisa en perfil 744',
+        'Puerta ventana en perfil 80-25',
         '$550.000/m2',
-        'Puerta ventana EN Aluminio Pesado premium en perfil 80-25, con vidrio reflectivo (tipo espejo).',
+        'Puerta ventana en perfil 80-25, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'WS012'
       ],
