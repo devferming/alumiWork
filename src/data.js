@@ -5,7 +5,7 @@ export const photoGallery = {
         'Me interesa la Puerta sencilla.',
         '/gallery/doors/simple/1.webp',
         'Puerta sencilla en aluminio premium',
-        '$600.000',
+        '$700.000',
         'Cerradura y Manija sencilla, perfilería en aluminio premium.',
         '90 cm de ancho x 2 mts de alto',
         'PS001'
@@ -14,7 +14,7 @@ export const photoGallery = {
         'Me interesa la Puerta sencilla.',
         '/gallery/doors/simple/2.webp',
         'Puerta sencilla en aluminio premium',
-        '$600.000',
+        '$700.000',
         'Cerradura y Manija sencilla, perfilería en aluminio premium.',
         '90 cm de ancho x 2 mts de alto',
         'PS002'
@@ -180,7 +180,7 @@ export const photoGallery = {
         'Me interesa la Puerta pesada más Cuerpo Fijo 1.5*2 mts.',
         '/gallery/doors/fixedBody/12.webp',
         'Puerta pesada + Cuerpo Fijo 1.5*2 mts.',
-        '$1.500.000',
+        '$1.600.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         'Puerta: 90 cm de ancho x 2 mts de alto, cuerpo Fijo: 60 cm de ancho x 2 mts de alto',
         'CF012'
@@ -227,7 +227,7 @@ export const photoGallery = {
         'Me interesa la Puerta Doble 2*2 mts.',
         '/gallery/doors/double/1.webp',
         'Puerta Doble 2*2 mts.',
-        '$1.900.000',
+        '$2.000.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         '2 mts de ancho x 2 mts de alto',
         'PD001'
@@ -236,7 +236,7 @@ export const photoGallery = {
         'Me interesa la Puerta Doble 2*2 mts.',
         '/gallery/doors/double/2.webp',
         'Puerta Doble 2*2 mts.',
-        '$1.900.000',
+        '$2.000.000',
         'Doble cerradura de seguridad, Manija de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         '2 mts de ancho x 2 mts de alto',
         'PD002'
@@ -247,7 +247,7 @@ export const photoGallery = {
         'Me interesa la Puerta Fachada de 2.5*2 mts.',
         '/gallery/doors/facade/1.webp',
         'Puerta Fachada de 2.5*2 mts.',
-        '$2.500.000',
+        '$2.800.000',
         'Doble cerradura de seguridad, Manijas de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 35 cm de ancho x 2 mts de alto',
         'PF001'
@@ -256,7 +256,7 @@ export const photoGallery = {
         'Me interesa la Puerta Fachada de 2.5*2 mts.',
         '/gallery/doors/facade/2.webp',
         'Puerta Fachada de 2.5*2 mts.',
-        '$2.500.000',
+        '$2.800.000',
         'Doble cerradura de seguridad, Manijas de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 35 cm de ancho x 2 mts de alto',
         'PF002'
@@ -265,7 +265,7 @@ export const photoGallery = {
         'Me interesa la Puerta Fachada de 2.5*2 mts.',
         '/gallery/doors/facade/3.webp',
         'Puerta Fachada de 2.5*2 mts.',
-        '$2.500.000',
+        '$2.800.000',
         'Doble cerradura de seguridad, Manijas de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 35 cm de ancho x 2 mts de alto',
         'PF003'
@@ -274,7 +274,7 @@ export const photoGallery = {
         'Me interesa la Puerta Fachada de 2.5*2 mts.',
         '/gallery/doors/facade/4.webp',
         'Puerta Fachada de 2.5*2 mts.',
-        '$2.500.000',
+        '$2.800.000',
         'Doble cerradura de seguridad, Manijas de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 35 cm de ancho x 2 mts de alto',
         'PF004'
@@ -283,7 +283,7 @@ export const photoGallery = {
         'Me interesa la Puerta Fachada de 2.5*2 mts.',
         '/gallery/doors/facade/5.webp',
         'Puerta Fachada de 2.5*2 mts.',
-        '$2.500.000',
+        '$2.800.000',
         'Doble cerradura de seguridad, Manijas de acero inoxidable, perfilería en aluminio pesado premium, Vidrios reflectivos (tipo espejo).',
         '2 puertas de 90 cm de ancho por 2 mts de alto, 2 cuerpos fijos de 35 cm de ancho x 2 mts de alto',
         'PF005'
@@ -469,7 +469,7 @@ export const photoGallery = {
         'Me interesa el Encerramiento tipo lenteja',
         '/gallery/enclosures/aluminum/1.webp',
         'Encerramiento tipo lenteja',
-        '$250.000/m2',
+        '$400.000/m2',
         'Encerramiento tipo lenteja en Aluminio de seguridad, disponible en colores gris plata, blanco, negro, bronce, y natural',
         'Desde 1 m2 en adelante',
         'EA001'
@@ -478,7 +478,7 @@ export const photoGallery = {
         'Me interesa Encerramiento en Aluminio',
         '/gallery/enclosures/aluminum/2.webp',
         'Encerramiento en Aluminio',
-        '$250.000/m2',
+        '$300.000/m2',
         'Encerramiento en Aluminio de seguridad, disponible en colores gris plata, blanco, negro, bronce, y natural',
         'Desde 1 m2 en adelante',
         'EA002'
@@ -487,7 +487,7 @@ export const photoGallery = {
         'Me interesa la Fachada en acero con Encerramiento en Aluminio',
         '/gallery/enclosures/aluminum/3.webp',
         'Fachada en acero con Encerramiento en Aluminio',
-        '$250.000/m2',
+        '$300.000/m2',
         'Fachada en acero con Encerramiento en Aluminio pesado de seguridad, disponible en colores gris plata, blanco, negro, bronce, y natural',
         'Desde 1 m2 en adelante',
         'EA003'
@@ -513,7 +513,7 @@ export const photoGallery = {
         'Me interesa la Ventana Lisa en perfil 50-20',
         '/gallery/windows/smooth/1.webp',
         'Ventanas Lisas en perfil 50-20',
-        '$180.000/m2',
+        '$200.000/m2',
         'Ventana Lisa en perfil 50-20, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'WS001'
@@ -524,7 +524,7 @@ export const photoGallery = {
         'Me interesa la Ventana Reticulada en perfil 50-20',
         '/gallery/windows/reticulated/1.webp',
         'Ventanas Reticuladas en perfil 50-20',
-        '$230.000/m2',
+        '$250.000/m2',
         'Ventana Reticulada en perfil 50-20, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'WR001'
@@ -611,7 +611,7 @@ export const photoGallery = {
         'Me interesa la Puerta ventana Lisa en perfil 744',
         '/gallery/windows/windowDoor/1.webp',
         'Puerta ventana Lisa en perfil 744',
-        '$250.000/m2',
+        '$270.000/m2',
         'Puerta ventana Lisa en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW001'
@@ -620,7 +620,7 @@ export const photoGallery = {
         'Me interesa la Puerta ventana Lisa en perfil 744',
         '/gallery/windows/windowDoor/2.webp',
         'Puerta ventana Lisa en perfil 744',
-        '$250.000/m2',
+        '$270.000/m2',
         'Puerta ventana Lisa en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW002'
@@ -629,7 +629,7 @@ export const photoGallery = {
         'Me interesa la Puerta ventana Lisa en perfil 744',
         '/gallery/windows/windowDoor/3.webp',
         'Puerta ventana Lisa en perfil 744',
-        '$250.000/m2',
+        '$270.000/m2',
         'Puerta ventana Lisa en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW003'
@@ -638,7 +638,7 @@ export const photoGallery = {
         'Me interesa la Puerta ventana reticulada en perfil 744',
         '/gallery/windows/windowDoor/4.webp',
         'Puerta ventana reticulada en perfil 744',
-        '$270.000/m2',
+        '$290.000/m2',
         'Puerta ventana reticulada en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW004'
@@ -647,7 +647,7 @@ export const photoGallery = {
         'Me interesa la Puerta ventana Lisa en perfil 744',
         '/gallery/windows/windowDoor/5.webp',
         'Puerta ventana Lisa en perfil 744',
-        '$250.000/m2',
+        '$270.000/m2',
         'Puerta ventana Lisa en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW005'
@@ -656,7 +656,7 @@ export const photoGallery = {
         'Me interesa la Puerta ventana reticulada en perfil 744',
         '/gallery/windows/windowDoor/6.webp',
         'Puerta ventana reticulada en perfil 744',
-        '$270.000/m2',
+        '$290.000/m2',
         'Puerta ventana reticulada en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW006'
@@ -665,7 +665,7 @@ export const photoGallery = {
         'Me interesa la Puerta ventana Lisa en perfil 744',
         '/gallery/windows/windowDoor/7.webp',
         'Puerta ventana Lisa en perfil 744',
-        '$250.000/m2',
+        '$270.000/m2',
         'Puerta ventana Lisa en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW007'
@@ -674,7 +674,7 @@ export const photoGallery = {
         'Me interesa la Puerta ventana Lisa en perfil 744',
         '/gallery/windows/windowDoor/8.webp',
         'Puerta ventana Lisa en perfil 744',
-        '$250.000/m2',
+        '$270.000/m2',
         'Puerta ventana Lisa en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW008'
@@ -683,7 +683,7 @@ export const photoGallery = {
         'Me interesa la Puerta ventana reticulada en perfil 744',
         '/gallery/windows/windowDoor/9.webp',
         'Puerta ventana reticulada en perfil 744',
-        '$270.000/m2',
+        '$290.000/m2',
         'Puerta ventana reticulada en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW009'
@@ -701,7 +701,7 @@ export const photoGallery = {
         'Me interesa la Puerta ventana reticulada en perfil 744',
         '/gallery/windows/windowDoor/11.webp',
         'Puerta ventana reticulada en perfil 744',
-        '$270.000/m2',
+        '$290.000/m2',
         'Puerta ventana reticulada en perfil 744, con vidrio reflectivo (tipo espejo).',
         'Desde 1 m2 en adelante',
         'PW011'
