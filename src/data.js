@@ -23,7 +23,7 @@ export const photoGallery = {
         'Me interesa la Puerta sencilla + Puerta ventana.',
         '/gallery/doors/simple/3.webp',
         'Puerta sencilla + Puerta ventanda',
-        '$1.200.000',
+        '$1.300.000',
         'Puerta sencilla en aluminio premium con Cerradura y Manija sencilla. Puerta ventana en perfil 744',
         'Puerta 90 cm de ancho x 2 mts de alto, Puerta ventana: 1.2 metros de ancho 2 mts de alto',
         'PS003'
